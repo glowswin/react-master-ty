@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Circle from "./Circle";
 
 const Father = styled.div`
   font-size: 15px;
@@ -16,8 +17,8 @@ const BoxTwo = styled(BoxOne)`
 function App() {
   return (
     <Father>
-      <BoxOne />
-      <BoxTwo />
+      <Circle bgColor="teal" />
+      <Circle bgColor="tomato" />
     </Father>
   );
 }
